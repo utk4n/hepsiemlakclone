@@ -1,3 +1,5 @@
+## Project just contains front-page.
+
 ![](https://github.com/utk4n/hepsiemlakclone/blob/master/HE1.png)
 ![](https://github.com/utk4n/hepsiemlakclone/blob/master/HE2.png)
 ![](https://github.com/utk4n/hepsiemlakclone/blob/master/HE3.png)
