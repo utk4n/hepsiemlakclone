@@ -38,7 +38,9 @@ const Middle = () => {
           onChange={(e) => setQuery(e.target.value)}
           type="search"
           className={`w-[633px] h-[46px] border-none px-4 text-lg outline-none placeholder:text-[#4d4d4d] ${
-            !!query.length ? "rounded-t-3xl" : "rounded-3xl"
+            !!query.length && !!searchCity.length
+              ? "rounded-t-3xl"
+              : "rounded-3xl"
           }`}
           placeholder="Konum, ilan no ya da emlak ofisi adıyla arayın (Örn. 1234-123456)"
         />
